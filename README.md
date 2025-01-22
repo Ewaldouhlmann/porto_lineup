@@ -12,23 +12,7 @@ O processo ETL é dividido em três etapas principais:
 
 ## Estrutura do Projeto
 
-├── src                           # Código fonte do projeto
-│   ├── etl                       # Módulo ETL
-│   │   ├── extract.py            # Script de extração dos dados
-│   │   ├── transform.py          # Script de transformação dos dados
-│   │   ├── load.py               # Script de carregamento dos dados
-│   ├── scheduler                 # Módulo de agendamento
-│   │   ├── scheduler.py          # Script para agendar a execução do processo ETL
-│   ├── main.py                   # Arquivo principal que executa o processo ETL manualmente
-├── data                          # Pasta para armazenar os arquivos de dados (bronze, silver, gold)
-│   ├── bronze                    # Dados brutos extraídos (CSV)
-│   ├── silver                    # Dados transformados (CSV)
-│   └── gold                      # Dados carregados prontos para análise (CSV)
-├── venv                          # Ambiente virtual do projeto
-├── etl_schedule.log              # Arquivo de log que armazena as execuções do ETL
-├── .gitignore                    # Arquivo para ignorar e não ser guardados no git
-├── Requirements.txt              # Arquivo de dependências do projeto
-└── README.md                     # Este arquivo de documentação (README)
+├── src # Código fonte do projeto │ ├── etl # Módulo ETL │ │ ├── extract.py # Script de extração dos dados │ │ ├── transform.py # Script de transformação dos dados │ │ ├── load.py # Script de carregamento dos dados │ ├── scheduler # Módulo de agendamento │ │ ├── scheduler.py # Script para agendar a execução do processo ETL │ ├── main.py # Arquivo principal que executa o processo ETL manualmente ├── data # Pasta para armazenar os arquivos de dados (bronze, silver, gold) │ ├── bronze # Dados brutos extraídos (CSV) │ ├── silver # Dados transformados (CSV) │ └── gold # Dados carregados prontos para análise (CSV) ├── venv # Ambiente virtual do projeto ├── etl_schedule.log # Arquivo de log que armazena as execuções do ETL ├── .gitignore # Arquivo para ignorar e não ser guardados no git ├── Requirements.txt # Arquivo de dependências do projeto └── README.md # Este arquivo de documentação (README)
 
 ## Como rodar o Projeto
 1. Clone o repositório
